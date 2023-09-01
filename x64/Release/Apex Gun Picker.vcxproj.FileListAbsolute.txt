@@ -1,1 +1,2 @@
 C:\!VS 2022 Projects\Apex Gun Picker\x64\Release\Apex Gun Picker.exe
+G:\!Coding Internal SSD\Github\ApexGunPickerV2\x64\Release\Apex Gun Picker.exe
