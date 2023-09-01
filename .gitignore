@@ -33,3 +33,4 @@
 *.tlog
 x64/Release/Apex Gun Picker.tlog/link.command.1.tlog
 *.opendb
+*.pdb
