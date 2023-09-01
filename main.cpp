@@ -6,11 +6,11 @@ using namespace std;
 
 class GunPicker {
 public:
-	string allGuns[28]{"UN-ASSIGNED", "Kraber", "Alternator", "M-600 Spitfire", "G7 Scout", "R-301 Carbine", "C.A.R SMG",
-						"Peacekeeper", "EVA-8 Shotgun", "L-Star LMG", "R-99 SMG", "VK-47 Flatline", "Prowler PDW", 
+	string allGuns[30]{"UN-ASSIGNED", "Kraber", "Alternator", "M-600 Spitfire", "G7 Scout", "R-301 Carbine", "C.A.R SMG",
+						"Peacekeeper", "EVA-8 Shotgun", "L-Star EMG", "R-99 SMG", "VK-47 Flatline", "Prowler PDW", 
 							"Triple Take", "Longbow DMR", "Rampage LMG", "Volt SMG", "Hemlock", "Charge Rifle", "Havoc", 
 								"Bocek Bow", "Sentinel", "Devotion LMG", "30-30 Repeater", "Mastif", "RE-45", "Mozanbique", 
-									"P2020"};
+									"P2020", "Nemisis Burst AR", "Wingman"};
 };
 
 int main() {
@@ -141,6 +141,14 @@ int main() {
 		else if (randNum == 28)
 		{
 		cout << "Use " << guns.allGuns[28] << endl;
+		}
+		else if (randNum == 29)
+		{
+		cout << "Use " << guns.allGuns[29] << endl;
+		}
+		else if (randNum == 30)
+		{
+		cout << "Use " << guns.allGuns[30] << endl;
 		}
 
 		cout << "Would you like to continue??\n";
